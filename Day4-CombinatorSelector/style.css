@@ -1,0 +1,17 @@
+/* main > article > p {
+    color: purple;
+}
+main > .p1 {
+    color: red;
+}
+main > section > .p1 {
+    color: brown;
+} */
+
+/* main span {
+    color: crimson;
+} */
+
+#section1 .span1 {
+    color: blue;
+}

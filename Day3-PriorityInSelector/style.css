@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+}
+.t1 {
+ color: magenta;
+}
+#h1 {
+    color: aqua;
+}
+* {
+    color: gray !important;
+}
