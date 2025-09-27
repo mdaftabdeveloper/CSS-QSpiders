@@ -14,3 +14,8 @@
         property: value;
     }
 
+=> Immediate Sibling Selector (+)
+-> Syntax:
+    first_sibling + immediate_sibling {
+        property; value;
+    }

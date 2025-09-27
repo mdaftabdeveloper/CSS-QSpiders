@@ -1,0 +1,26 @@
+/* main :first-child {
+    color: blue;
+}
+main :nth-last-child(2) {
+    color: green;
+}
+main :nth-child(2) {
+    color: aqua;
+}
+main :last-child {
+    color:hotpink
+}
+
+main :nth-child(2), main :nth-child(3) {
+    color: darkgray;
+} */
+
+main :first-child :nth-child(3) {
+    color: crimson;
+}
+main :nth-child(2) :first-child {
+    color: magenta;
+}
+main :last-child :nth-child(2) {
+    color: blue;
+}

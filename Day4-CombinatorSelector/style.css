@@ -1,4 +1,4 @@
-/* main > article > p {
+main > article > p {
     color: purple;
 }
 main > .p1 {
@@ -8,10 +8,27 @@ main > section > .p1 {
     color: brown;
 } */
 
-/* main span {
+main span {
     color: crimson;
-} */
+}
 
 #section1 .span1 {
     color: blue;
+}
+
+/* Immediate Sibling Selector  */
+h2 + p {
+    color: cyan;
+}
+h2 + p + div {
+    color: yellow;
+}
+h2 + p + div + span + h5 + p {
+    color: skyblue;
+}
+h2 ~ p {
+    color: aquamarine;
+}
+h2 ~ .para {
+    color: black;
 }
